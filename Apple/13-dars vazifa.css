@@ -1,0 +1,300 @@
+*{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+}
+.first{
+       width: 100%;
+       height: 50px;
+       /* position: absolute; */
+       background-color: rgb(60, 59, 59);
+       text-align: center;
+       position: fixed;
+       z-index: 999;
+       
+     
+}
+.first ul{
+       display: flex;
+       justify-content: space-around;
+      
+       font-size: 20px;
+       align-items: center;
+       text-align: center;
+       color: ivory;
+       margin-top: auto;
+       
+}
+.first ul li{
+       list-style-type: none; 
+        margin-top:10px;
+       
+}
+
+.second{
+       width: 100%;
+       height: 40px;
+       background-color: #ddd;
+       text-align: center;
+}
+.second a{
+       text-decoration: none;
+}
+.second a:hover{
+       text-decoration:underline;
+}
+
+.aa{
+       width: 100%;
+       height:84vh;
+       line-height: 2;
+       text-align: center;
+       background-image: url(iphonelarger.jpg);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+}
+.aa h1{
+       font-size: 50px;
+}
+.aa a {
+       margin-left: 1cm;
+}
+
+
+.bb{
+       width: 100%;
+       height: 80vh;
+       background-image: url(12prolarger.jpg);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       color: white;
+       text-align: center;
+       line-height: 2;
+}
+.bb p{
+       color: gray;
+}
+.bb a{
+       margin-left: 1cm;
+       font-weight: 900;
+       color: rgb(0, 0, 170);
+}
+
+.cc{
+       width: 100%;
+       height: 80vh;
+       margin-top: .4cm;
+       background-image: url(ipadlarger.jpg);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       color: white;
+       text-align: center;
+       line-height: 2;
+}
+
+.cc a{
+       margin-left: 1cm;
+       font-weight: 900;
+       color: rgb(0, 0, 170);
+}
+.dd{
+       width: 49%;
+       height: 80vh;
+       background-image: url(promoimac.jpg);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       color: black;
+       text-align: center;
+       line-height: 2;
+       margin: 0.3cm ;
+
+}
+.dd a{
+       margin-left: 1cm;
+       font-weight: 900;
+       color: rgb(0, 0, 170);
+}
+.ee{
+       width: 49%;
+       height: 80vh;
+       background-image: url(watchlarger.jpg);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       color: white;
+       text-align: center;
+       line-height: 2;
+       margin: 0.3cm ;
+
+}
+.ff{
+       display: flex;
+}
+.ee h1 {
+       color: blue;
+}
+.ee h5{
+       color: red;
+}
+.ee a{
+       margin-left: 1cm;
+       font-weight: 900;
+       color: rgb(0, 0, 170);
+}
+.gg{
+       display: flex;
+}
+.hh{
+       width: 49%;
+       height: 80vh;
+       background-image: url(spatial.jpg);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       color: white;
+       text-align: center;
+       line-height: 1.5;
+       margin: 0.3cm ;
+
+}
+/* .ii{
+       width: 49%;
+       height: 80vh;
+       background-image: url(icons.jpg);
+       /* background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover; */
+       /* color: white;
+       text-align: center;
+       line-height: 1.5;
+       margin: 0.3cm ;
+
+}
+ */
+.ii{
+       width: 49%;
+       height: 80vh;
+       line-height: 1.5;
+       margin: 0.3cm ;
+       background-color: rgb(252, 251, 251);
+       text-align: center;
+}
+ .ii img{
+        margin-top: .3cm;
+        margin-left: 2cm
+        
+       
+}
+.ii h1{
+       margin-left: 3cm;
+
+}
+.ii h3{
+       
+       margin-left: 2cm;
+
+}
+.ii a{
+       margin:0.7cm ;
+}
+.kk{
+       display: flex;
+}
+.ll{
+       width: 49%;
+       height: 80vh;
+       background-image: url(card.jpg);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       color: black;
+       text-align: center;
+       line-height: 1.5;
+       margin: 0.3cm ;
+
+}
+.mm{
+       width: 49%;
+       height: 80vh;
+       background-image: url(morninglarger.jpg);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       color: black;
+       text-align: center;
+       line-height: 1.5;
+       margin: 0.3cm ;
+
+}
+.nn{
+       width: 70%;
+       /* height: 100vh; */
+       margin-left: 15%;
+       font-size: 11px;
+}
+#zz{
+       margin-left: 15%;
+       line-height: 2;
+}
+#zz li{
+       list-style-type: none;
+
+}
+#footer{
+       margin-left: 7%;
+       line-height: 2;
+      
+}
+#footer li{
+       list-style-type: none;
+       opacity: .8;
+}
+.oo{
+       display: flex;
+       margin-top: .7cm;
+       font-size: 10px;
+}
+#footer li:hover{
+       cursor: pointer;
+       text-decoration: underline;
+}
+#foot b {
+       color: blue;
+}
+#foot b:hover{
+       cursor: pointer;
+       text-decoration: underline;
+}
+#foot{
+       font-size: 11px;
+       margin-left: 15%;
+}
+.blok{
+       /* width: 400px;
+       height: 30px; */
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       font-size: 11px;
+}
+.blok ul{
+       display: flex;
+       justify-content: space-between;
+}
+.blok li{
+       display: flex;
+       justify-content: space-between;
+       margin: 0 10px; 
+}
+.xx{
+       display: flex;
+
+
+}
+.xx ul{
+       margin-left: 1cm;
+}
